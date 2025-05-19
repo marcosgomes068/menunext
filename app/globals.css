@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --rest-primary: #2563eb;
+  --rest-secondary: #f1f5f9;
+}
+.bg-rest-gradient {
+  background-image: linear-gradient(to bottom right, var(--rest-secondary), var(--rest-primary));
+}
+.text-rest-primary {
+  color: var(--rest-primary);
+}
+.border-rest-secondary {
+  border-color: var(--rest-secondary);
+}
+
+
+.mb-100px {
+  margin-bottom: 100px !important;
+}
+
+
+.input-produto-nome {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
+
+
+.input-produto-preco {
+  min-width: 0 !important;
+  max-width: 80px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+}
