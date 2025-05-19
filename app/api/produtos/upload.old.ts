@@ -1,1 +1,1 @@
-// Endpoint legado removido. Não utilizar este arquivo. (Desativado para build de produção)
+// Arquivo legado removido. Não utilizar este endpoint. (Vazio para evitar erro de build)
